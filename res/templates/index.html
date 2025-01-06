@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="qrc:///qtwebchannel/qwebchannel.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="suggestion-container" class="suggestion-container">
+        <img id="close-suggestion-logo" onclick="suggestion_container(false)" class="cross" alt="cross">
+        <p class="suggestion-header">Suggestions</p>
+        <div class="suggestion-content-container">
+            <p id="suggestion-content" class="suggestion-content"></p>
+        </div>
+    </div>
+    <div class="header">
+        <div class="header-left">
+            <div class="identity">
+                <img id="project-logo" class="logo"  alt="logo">
+                <div class="title">
+                    <p class="project-name">Agro Scout</p>
+                    <p class="team-name">By Team Agro Genesis</p>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="menu-sync">
+                    <img id="sync-logo" class="menu-logo" alt="logo">
+                    <p  class="sync-text">Sync Model</p>
+                </div>
+                <div class="menu-area">
+                    <img id="area-logo" class="menu-logo" alt="logo">
+                    <p class="area-text">Select Area</p>
+                </div>
+            </div>
+        </div>
+        <div class="header-right">
+            <img id="connections-logo" class="connection-logo" src="connection.svg">
+            <p class="connection-text">Connected</p>
+        </div>
+    </div>
+    <div class="container-1">
+        <div id="map">
+            <div class="hide"></div>
+        </div>
+
+
+        <div class="log">
+            <p class="log-title">Log</p>
+            <div class="log-divider"></div>
+            <div class="log-container">
+        
+            </div>
+        </div>
+
+
+
+    </div>
+    <div class="container-2">
+        <div class="compass">
+            <div class="compass-container">
+                <img id="compas-logo" class="compass-logo"  alt="compass">
+                <img id="tick-logo" class="compass-tick" alt="compass">
+            </div>
+
+        </div>
+        <div class="monitor">
+            <div class="top-row">
+                <div class="data-container">
+                    <img id="battery-logo" class="data-icon">
+                    <div class="data">
+                        <p class="data-title">Battery</p>
+                        <p id="battery-value" class="data-value">40%</p>
+                    </div>
+                </div>
+                <div class="data-container">
+                    <img id="speed-logo" class="data-icon">
+                    <div class="data">
+                        <p class="data-title">Speed</p>
+                        <p id="speed-value" class="data-value">40%</p>
+                    </div>
+                </div>
+                <div class="data-container">
+                    <img id="spray-logo" class="data-icon">
+                    <div class="data">
+                        <p class="data-title">Sprayer</p>
+                        <p id="spray-value" class="data-value">40%</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="divider"></div>
+
+            <div class="top-row">
+                <div class="data-container">
+                    <img id="plant-logo" class="data-icon plant" >
+                    <div class="data">
+                        <p class="data-title">Count</p>
+                        <p id="diseased-count-value" class="data-value">40%</p>
+                    </div>
+                </div>
+                <div class="data-container">
+                    <img id="tilt-logo" class="data-icon" >
+                    <div class="data">
+                        <p class="data-title">Tilt</p>
+                        <p class="data-title">Lat: <span id="x-value">342</span></p>
+                        <p class="data-title">Lon: <span id="y-value">342</span></p>
+                    </div>
+                </div>
+                <div class="data-container">
+                    <img id="position-logo" class="data-icon">
+                    <div class="data">
+                        <p class="data-title">Position</p>
+                        <p class="data-title">Lat: <span id="lat-value">34.232</span></p>
+                        <p class="data-title">Lon: <span id="lon-value">34.232</span></p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="grid-container">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
