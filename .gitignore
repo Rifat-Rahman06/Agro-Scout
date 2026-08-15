@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# API keys / environment files
+.env
+.env.*
+
+# Model source files (large binaries — only the .tflite files go in the repo)
+rover/models/best.pt
+rover/models/efficientnet_model.h5
+
+# OS junk
+Thumbs.db
+.DS_Store
+
+# IDE
+.vscode/
+.idea/

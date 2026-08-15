@@ -1,0 +1,12 @@
+# Raspberry Pi rover dependencies
+# Install on the Pi:  pip install -r requirements.txt
+
+RPi.GPIO>=0.7.1
+pyserial>=3.5
+smbus>=1.1
+opencv-python-headless>=4.6
+numpy>=1.24
+tflite-runtime>=2.14
+
+# gy73 - custom module for the GY-73 / QMC5883L magnetometer (not on PyPI).
+# Copy gy73.py next to rover.py on the Pi.
