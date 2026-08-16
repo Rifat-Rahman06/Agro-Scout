@@ -455,6 +455,17 @@ The rover runs two lightweight **TensorFlow Lite** models directly on the Raspbe
 
 ---
 
-## 🌱 Agro-Scout
 
-> **Sense the field. Navigate the rows. Understand the data.**
+## 🎓 Course & Team Details
+
+> **Institution:** United International University (UIU)  
+> **Course:** Microprocessor & Microcontroller Laboratory  
+> **Trimester:** 243
+
+| Team Member | Student ID |
+| :--- | :--- |
+| **Rifat Rahman** | `011202254` |
+| **Teammate Name** | `011...` |
+| **Teammate Name** | `011...` |
+| **Teammate Name** | `011...` |
+| **Teammate Name** | `011...` |
