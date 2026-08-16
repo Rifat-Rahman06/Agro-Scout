@@ -467,5 +467,5 @@ The rover runs two lightweight **TensorFlow Lite** models directly on the Raspbe
 | **Rifat Rahman** | `011202254` |
 | **Md. Asaduzzaman Shuvo** | `011221104` |
 | **Riasad Alvi** | `011212069` |
-| **Teammate Name** | `011...` |
+| **Adnan Sarkar** | `011212003` |
 | **Teammate Name** | `011...` |
